@@ -1,0 +1,14 @@
+body{
+    background: #8598c7;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+.img300px{
+    width: 400px;
+    display: flex;
+    margin: 70px 0 70 0;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Annotation\Route;
+
+class AccueilController extends AbstractController
+{
+    /**
+     * @Route("", name="accueilName")
+     */
+    
+    public function index(): Response
+    {
+        return $this->render('accueil/index.html.twig', []);
+    }
+
+    /**
+     * @Route("/presentation", name="presentationName")
+     */
+    public function presentation():Response
+    {
+        
+        return $this->render('accueil/presentation.html.twig', [
+            
+        ]);
+    }
+}
